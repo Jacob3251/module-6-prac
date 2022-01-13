@@ -5,19 +5,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Welcome to Module 6 Practice in programming hero</h1>
-    <h3>We will be starting with adding audio files to the website</h3>
-    <audio src="media/audio/aud0.wav" controls autoplay muted></audio>
-    <h3>Now we will be adding the video to the website</h3>
-    <video height="480" width="768" src="media/video/vid0.mp4" controls></video>
-    <h3>Now we will be adding a youtube video to the website</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9_gkpYORQLU" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <nav>
+        <ul>
+            <li><a href="">Home</a>
+                <ul class="dropdown">
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Programs</a>
+                <ul class="dropdown">
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Subjects</a>
+                <ul class="dropdown">
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">About Us</a>
+                <ul class="dropdown">
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Welcome to Module 6 Practice in programming hero</h1>
+        <h3>We will be starting with adding audio files to the website</h3>
+        <audio src="media/audio/aud0.wav" controls autoplay muted></audio>
+        <h3>Now we will be adding the video to the website</h3>
+        <video height="480" width="768" src="media/video/vid0.mp4" controls></video>
+        <h3>Now we will be adding a youtube video to the website</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9_gkpYORQLU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <Section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country Name</th>
+                        <th>Country Name</th>
+                        <th>Country Name</th>
+                        <th>Country Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bangladesh</td>
+                        <td>Srilanka</td>
+                        <td>Australia</td>
+                        <td>West Indies</td>
+                    </tr>
+                    <tr>
+                        <td>Bangladesh</td>
+                        <td>Srilanka</td>
+                        <td>Australia</td>
+                        <td>West Indies</td>
+                    </tr>
+                    <tr>
+                        <td>Bangladesh</td>
+                        <td>Srilanka</td>
+                        <td>Australia</td>
+                        <td>West Indies</td>
+                    </tr>
+                </tbody>
+            </table>
+        </Section>
+        <h1>Making a Form</h1>
+        <form action="">
+            <p>
+                Name:
+                <input type="text" name="name" id="" placeholder="Enter your Name">
+            </p>
+            <p>
+                Name:
+                <input type="password" name="pass" id="" placeholder="Enter your password">
+            </p>
+            <fieldset>
+                <legend>Select Pitha</legend>
+                <p>
+                    <label for="vapa"><input type="radio" name="pitha" id="vapa">Vaapa</label>
+                </p>
+                <p>
+                    <label for="chitoi"><input type="radio" name="pitha" id="chitoi">Chitoi</label>
+                </p>
+                <p>
+                    <label for="sondesh"><input type="radio" name="pitha" id="sondesh">Sondesh</label>
+                </p>
+                <p>
+                    <label for="Naru"><input type="radio" name="pitha" id="Naru">Naru</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Select your vorta</legend>
+                <p><label for="shak"><input type="checkbox" name="vorta" id="shak">Shak</label></p>
+                <p><label for="shutki"><input type="checkbox" name="vorta" id="shutki">Shutki</label></p>
+                <p><label for="Dal"><input type="checkbox" name="vorta" id="Dal">Dal</label></p>
+                <p>
+                    <textarea name="Instruction" id="" cols="30" rows="10"></textarea>
+                </p>
+
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <svg viewBox="0 0 200 200" style="border: 2px solid red" width="400" height="400">
+            <rect x="20" y="60" width="160" height="90" fill="green">
+
+            </rect>
+            <circle cx="90" cy="100" r="25" fill="red">
+
+            </circle>
+
+        </svg>
+    </main>
+
 </body>
 
 </html>
